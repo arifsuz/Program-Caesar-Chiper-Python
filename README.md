@@ -1,7 +1,7 @@
 # Caesar Cipher Python Program:
 
 ### Table of Contents:
-1. **Introduction:**
+1. **Introduction**
 2. **Features**
 3. **Requirements**
 4. **Installation**
