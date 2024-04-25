@@ -1,6 +1,6 @@
 # Caesar Cipher Python Program:
 
-# Table of Contents:
+### Table of Contents:
 1. **Introduction:**
 2. **Features**
 3. **Requirements**
@@ -8,23 +8,23 @@
 5. **Usage**
 6. **Contributing**
 
-# Introduction:
+### Introduction:
 This Python program implements the Caesar Cipher method for encryption and decryption. The Caesar Cipher is a type of substitution cipher in which each letter in the plaintext is ‘shifted’ a certain number of places down the alphabet.
 
-# Features:
+### Features:
 - Encrypt a message using the Caesar Cipher method.
 - Decrypt a message encrypted using the Caesar Cipher method.
 - User-friendly: Prompts user for inputs and displays outputs.
 
-# Requirements:
+### Requirements:
 - Python 3.x
 
-# Installation:
+### Installation:
 1. Clone the repository to your local machine.
 2. Navigate to the directory containing the program.
 3. Run the program using Python 3.
 
-# Usage
+### Usage
 1. Run the program.
 2. Choose whether you want to encrypt or decrypt by entering ‘E’ or ‘D’.
 3. If you choose to encrypt:
@@ -36,7 +36,7 @@ This Python program implements the Caesar Cipher method for encryption and decry
     - Enter the shift key (an integer).
     - The program will display the decrypted message.
 
-# Contributing:
+### Contributing:
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ### Disclaimer:
