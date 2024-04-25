@@ -39,6 +39,10 @@ This Python program implements the Caesar Cipher method for encryption and decry
 # Contributing:
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
+### Disclaimer:
+   Program ini saya buat untuk memenuhi tugas kuliah, mata kuliah Pemrogramman Lanjut pada semester dua.
+   I created this program to fulfill a college assignment for the Advanced Programming course in the second semester.
+
 **Developed by:** Muhamad Nur Arif (41523010147) for Advanced Programming 2024/2025 Class
 
 **LinkedIn:** https://www.linkedin.com/in/marif8/
