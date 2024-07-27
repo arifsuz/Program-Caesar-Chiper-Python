@@ -1,14 +1,13 @@
 # Define the alphabet
-alphabet = 'abcdefghijklmnopqrstuvwxyz'
+alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
 # Function to encrypt the text
 def encrypt(text, shift_key):
     encrypted_text = ""
     for char in text:
         if char.isalpha():
-            char = char.lower()
             position = alphabet.index(char)
-            new_position = (position + shift_key) % 26
+            new_position = (position + shift_key) % 52
             new_char = alphabet[new_position]
             encrypted_text += new_char
         else:
@@ -20,9 +19,8 @@ def decrypt(text, shift_key):
     decrypted_text = ""
     for char in text:
         if char.isalpha():
-            char = char.lower()
             position = alphabet.index(char)
-            new_position = (position - shift_key) % 26
+            new_position = (position - shift_key) % 52
             new_char = alphabet[new_position]
             decrypted_text += new_char
         else:
